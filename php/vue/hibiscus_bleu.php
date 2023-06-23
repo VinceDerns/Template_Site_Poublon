@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'hibiscus bleu</title>
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../css/livres.css">
+    <link rel="stylesheet" href="../../assets/css/livres.css">
 
 </head>
 
@@ -51,7 +51,7 @@
 
 
         <div class="presentation">
-            <img class="cover" src="../../images/livres/hibiscus_bleu/hibiscus_bleu_cover.jpg"
+            <img class="cover" src="../../assets/images/livres/hibiscus_bleu/hibiscus_bleu_cover.jpg"
                 alt="Couverture du livre l'hibiscus bleu" width="400px">
             <p> &#160; Ce conte moderne destiné aux jeunes comme aux adultes, nous confronte aux secrets de la
                 Nouvelle-Calédonie et aux
@@ -203,7 +203,7 @@
 
             <div class="illustration">
                 <h3>Couverture et illustrations de Bernard Vercruyce, artiste animalier international</h3>
-                <img src="../../images/livres/hibiscus_bleu/Bernard_Vercruyce.jpg" alt="Photo de Bernard Vercruyce" width="400px">
+                <img src="../../assets/images/livres/hibiscus_bleu/Bernard_Vercruyce.jpg" alt="Photo de Bernard Vercruyce" width="400px">
                 <img src="../../images/livres/hibiscus_bleu/les-esclaves-du-cirque.jpg" alt="affiche de cirque" width="400px">
                 <img src="../../images/livres/hibiscus_bleu/Affiche_salon_Art_du_Colombier_2022.jpg"
                     alt="Affiche du 28eme salon d'art de Colombier" width="400px">

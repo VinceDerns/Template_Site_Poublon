@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../css/livres.css">
+    <link rel="stylesheet" href="../../assets/css/livres.css">
 </head>
 
 <body>
@@ -29,6 +29,12 @@
                 </li>
                 <li class="nav_item">
                     <a class="nav_link" href="../../html/livres.html">Livres</a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_link" href="../../html/chroniques.html">Chroniques</a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_link" href="../../html/articles.html">Articles</a>
                 </li>
                 <li class="nav_item">
                     <a class="nav_link" href="../../html/commander.html">Commander</a>

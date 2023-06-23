@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les ailes du paradis</title>    
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../css/livres.css">
+    <link rel="stylesheet" href="../../assets/css/livres.css">
 </head>
 
 <body>
