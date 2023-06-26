@@ -1,3 +1,5 @@
+<?php include '../composants/header.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,36 +12,6 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <input type="checkbox" id="toggle">
-        <nav>
-            <a href="../../html/biographie.html"><img class="title" src="../../images/MSP Titre.jpg"
-                    alt="Marie-Simone POUBLON"></a>
-            <label class="navbar_toggler" for="toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </label>
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a id="active" class="nav_link" href="../../html/index.html">Accueil</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/biographie.html">Biographie</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/livres.html">Livres</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/commander.html">Commander</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-
     <div class="container">
 
         <div class="book_title">
@@ -317,25 +289,7 @@
         </div>
     </div>
 
-    <footer>
-        <div class="footer_content">
-            <h3>Marie-Simone POUBLON</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/mariesimone.poublon"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer_bottom">
-            <p>copyright &copy;2023 tous droits réservés | Édition Marie Simone</p>
-        </div>
-    </footer>
-
-
-
+    <?php include '../composants/footer.php' ?>
 
 </body>
 

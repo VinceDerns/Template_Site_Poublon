@@ -307,6 +307,28 @@ h3 {
 
 /* Fin page livre*/
 
+/* Page Contact*/
+
+.header_contact
+{
+    height: 200px;
+}
+
+.form_container{
+    width:800px;
+    height: 400px;
+    margin: 0 auto;    
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background: linear-gradient(var(--bg-color1), var(--bg-color2));
+    color: var(--bg-bio-color);
+}
+
+/* Fin page Contact*/
+
 
 /* Footer */
 footer {
@@ -527,6 +549,10 @@ footer {
         height: 100px;
     }
 
+    .header_contact {
+        height: 100px;
+    }
+
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
@@ -604,6 +630,18 @@ footer {
 
     nav .navbar_toggler {
         display: grid !important;
+    }
+
+    .book_header {
+        height: 100px;
+    }
+    
+    .header_contact {
+        height: 100px;
+    }
+
+    .form_container{
+        width: auto;
     }
 
 }

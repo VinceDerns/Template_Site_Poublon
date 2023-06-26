@@ -1,3 +1,5 @@
+<?php include '../composants/header.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,12 +33,6 @@
                     <a class="nav_link" href="../../html/livres.html">Livres</a>
                 </li>
                 <li class="nav_item">
-                    <a class="nav_link" href="../../html/chroniques.html">Chroniques</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/articles.html">Articles</a>
-                </li>
-                <li class="nav_item">
                     <a class="nav_link" href="../../html/commander.html">Commander</a>
                 </li>
                 <li class="nav_item">
@@ -54,7 +50,8 @@
         </div>
 
         <div class="presentation">
-            <img class="cover" src="../../images/Un tout petit péché.jpg" alt="Couverture du livre un tout petit péché">
+            <img class="cover" src="../../assets/images/Un tout petit péché.jpg"
+                alt="Couverture du livre un tout petit péché">
             <p>Résumé :
                 Ce Roman est basé sur une histoire vraie, celle de Giuseppe Belvedere, dit Nino, humaniste, poète et
                 homme libre, Giuseppe, Italien, arrivait à Paris en 1970. Il vécut ses douze dernières années à la rue,
@@ -105,8 +102,8 @@
                 soit-il à plumes, à
                 poils ou fait de sang et de chair.</p>
 
-            <img class="dessin" src="../../images/livres/petit_peche/Giuseppe_dessin-1920w.jpg"
-                alt="dessin de Giuseppe tenant un oiseau">
+            <img class="dessin" src="../../assets/images/livres/petit_peche/Giuseppe_dessin-1920w.jpg"
+                alt="dessin de Giuseppe tenant un oiseau" width="600px">
             <p>Oeuvre de Mario Filograna "Giuseppe et le moineau de Paris"</p>
         </div>
 
@@ -208,7 +205,7 @@
 
             <div class="bloc_temoignage">
                 <h3>Antonio Prata</h3>
-                <img class="Prata" src="../../images/livres/petit_peche/Antonio_prata.jpg" alt="Antonio Prata"
+                <img class="Prata" src="../../assets/images/livres/petit_peche/Antonio_prata.jpg" alt="Antonio Prata"
                     width="500px">
                 <p>Le cinéaste italo-suisse Antonio Prata, primé pour son film d'auteur de 56mn "Monsieur Pigeon", sorti
                     en 2021 en salle.</p>
@@ -224,21 +221,7 @@
 
     </div>
 
-    <footer>
-        <div class="footer_content">
-            <h3>Marie-Simone POUBLON</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/mariesimone.poublon"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer_bottom">
-            <p>copyright &copy;2023 tous droits réservés | Édition Marie Simone</p>
-        </div>
-    </footer>
+    <?php include '../composants/footer.php' ?>
 </body>
 
 </html>

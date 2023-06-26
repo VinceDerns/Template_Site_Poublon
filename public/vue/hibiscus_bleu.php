@@ -1,3 +1,5 @@
+<?php include '../composants/header.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,35 +14,7 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <input type="checkbox" id="toggle">
-        <nav>
-            <a href="../../html/biographie.html"><img class="title" src="../../images/MSP Titre.jpg"
-                    alt="Marie-Simone POUBLON"></a>
-            <label class="navbar_toggler" for="toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </label>
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a id="active" class="nav_link" href="../../html/index.html">Accueil</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/biographie.html">Biographie</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/livres.html">Livres</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/commander.html">Commander</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+
 
     <div class="container">
         <div class="book_title">
@@ -61,7 +35,8 @@
                 hommes tel
                 qu’elle le voit avec ses yeux d’oiseau.
                 <br>
-                L'auteure, <em>Marie-Simone Poublon,</em>  nous invite à vivre une aventure exceptionnelle imaginaire avec de
+                L'auteure, <em>Marie-Simone Poublon,</em> nous invite à vivre une aventure exceptionnelle imaginaire
+                avec de
                 nombreux animaux
                 bien réels qui ont partagé sa vie. Elle se fait la voix d’une petite perruche blanche, Neige et nous
                 offre tout au long
@@ -69,19 +44,22 @@
             </p>
             <div class="histoire">
                 <h3>L'histoire</h3>
-                <p>Neige, au caractère bien trempé, se retrouve après un long voyage en avion en Nouvelle-Calédonie, à 16
+                <p>Neige, au caractère bien trempé, se retrouve après un long voyage en avion en Nouvelle-Calédonie, à
+                    16
                     700 kms de la
                     France. Elle se fait rapidement des amis. Célia, sa maman est biologiste et suit à la trace le
                     déplacement des baleines
-                    dans l’océan. Neige, qui n’a pas sa langue dans sa poche, manie l’humour avec délice. Elle affrontera un
+                    dans l’océan. Neige, qui n’a pas sa langue dans sa poche, manie l’humour avec délice. Elle
+                    affrontera un
                     jour de
-                    septembre, Hidoku-le-terrible. Le capitaine du baleinier l’Umi vient d’enlever Tatara, le bébé de Magali
+                    septembre, Hidoku-le-terrible. Le capitaine du baleinier l’Umi vient d’enlever Tatara, le bébé de
+                    Magali
                     et Migaloo,
                     deux baleines du Pacifique. Neige et ses amis ont un plan pour le libérer… Réussiront-ils ?</p>
             </div>
         </div>
 
-       
+
 
         <div class="bloc_extrait">
             <h3>Extrait du prologue</h3>
@@ -203,22 +181,25 @@
 
             <div class="illustration">
                 <h3>Couverture et illustrations de Bernard Vercruyce, artiste animalier international</h3>
-                <img src="../../assets/images/livres/hibiscus_bleu/Bernard_Vercruyce.jpg" alt="Photo de Bernard Vercruyce" width="400px">
-                <img src="../../images/livres/hibiscus_bleu/les-esclaves-du-cirque.jpg" alt="affiche de cirque" width="400px">
+                <img src="../../assets/images/livres/hibiscus_bleu/Bernard_Vercruyce.jpg"
+                    alt="Photo de Bernard Vercruyce" width="400px">
+                <img src="../../images/livres/hibiscus_bleu/les-esclaves-du-cirque.jpg" alt="affiche de cirque"
+                    width="400px">
                 <img src="../../images/livres/hibiscus_bleu/Affiche_salon_Art_du_Colombier_2022.jpg"
                     alt="Affiche du 28eme salon d'art de Colombier" width="400px">
                 <img src="../../images/livres/hibiscus_bleu/Rencontres_insolites_crayon+à+papier.jpg"
                     alt="Dessin au crayon d'un chat et d'un oiseau" width="400px">
                 <p>a participé à illustrer le conte :</p>
                 <p>Clémentine De Trez (dessin de Neige)</p>
-                <img src="../../images/livres/hibiscus_bleu/Neige_FT-CMJN.jpg" alt="dessin d'oiseau blanc" width="400px">
+                <img src="../../images/livres/hibiscus_bleu/Neige_FT-CMJN.jpg" alt="dessin d'oiseau blanc"
+                    width="400px">
             </div>
         </div>
     </div>
-    
-    
-    <section class="other_book">       
-        <div class="other_book_container">            
+
+
+    <section class="other_book">
+        <div class="other_book_container">
             <div class="other_book_box">
                 <a href="../html/livres/les_ailes_du_paradis.html"><img class="other_book_cover"
                         src="../../images/Les ailes du paradis.jpg" alt=""></a>
@@ -238,25 +219,7 @@
         </div>
     </section>
 
-    <footer>
-        <div class="footer_content">
-            <h3>Marie-Simone POUBLON</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/mariesimone.poublon"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer_bottom">
-            <p>copyright &copy;2023 tous droits réservés | Édition Marie Simone</p>
-        </div>
-    </footer>
-
-
-
+    <?php include '../composants/footer.php' ?>
 
 </body>
 

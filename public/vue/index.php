@@ -1,3 +1,7 @@
+<?php include '../composants/header.php' ?>
+
+<?php include '../composants/header.php' ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -6,42 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="../css/style.css">     
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-
-    <div class="navbar">
-        <input type="checkbox" id="toggle">
-        <nav>
-            <a href="../html/biographie.html"><img class="title" src="../images/MSP Titre.jpg"
-                    alt="Marie-Simone POUBLON"></a>
-            <label class="navbar_toggler" for="toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </label>
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/index.html">Accueil</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/biographie.html">Biographie</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/livres.html">Livres</a>
-                </li>                
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/commander.html">Commander</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
     <header>
         <div>
@@ -65,7 +39,7 @@
                 </div>
 
                 <div class="theback">
-                    <p>Neige, au caractère bien trempé, se retrouve après  un long voyage en avion en Nouvelle-Calédonie,
+                    <p>Neige, au caractère bien trempé, se retrouve après un long voyage en avion en Nouvelle-Calédonie,
                         à 16 700 kms de la
                         France. Elle se fait rapidement des amis.</p>
                 </div>
@@ -115,25 +89,10 @@
                 </div>
             </div>
         </div>
-
     </div>
 
-    <footer>
-        <div class="footer_content">
-            <h3>Marie-Simone POUBLON</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <?php include '../composants/footer.php' ?>
 
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/mariesimone.poublon"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer_bottom">
-            <p>copyright &copy;2023 tous droits réservés | Édition Marie Simone</p>
-        </div>
-    </footer>
 </body>
 
 </html>

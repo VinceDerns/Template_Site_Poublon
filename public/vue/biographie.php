@@ -1,3 +1,5 @@
+<?php include '../composants/header.php' ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -6,40 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biographie</title>
-    <link rel="stylesheet" href="../css/style.css">    
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <div class="navbar">
-        <input type="checkbox" id="toggle">
-        <nav>
-            <img class="title" src="../images/MSP Titre.jpg" alt="Marie-Simone POUBLON">
-            <label class="navbar_toggler" for="toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </label>
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a id="active" class="nav_link" href="../html/index.html">Accueil</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/biographie.html">Biographie</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/livres.html">Livres</a>
-                </li>                
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/commander.html">Commander</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../html/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
     <main>
 
@@ -48,8 +21,9 @@
         </header>
 
         <article class="bio_container">
-            <img class="bio_img" src="../images/MSPoublon.jpg" alt="Marie-Simone Poublon">                      
-            <p> <b>J</b>e rédige des chroniques et des articles pour la presse web alternative (1) sur des thèmes sociétaux,
+            <img class="bio_img" src="../images/MSPoublon.jpg" alt="Marie-Simone Poublon">
+            <p> <b>J</b>e rédige des chroniques et des articles pour la presse web alternative (1) sur des thèmes
+                sociétaux,
                 environnementaux
                 ou de protection animale.
                 Auteure de plusieurs livres-enquêtes issus de faits réels, je publie aussi des romans et contes modernes
@@ -61,14 +35,16 @@
                 secrets
                 de vie.</p>
 
-                <br>
+            <br>
 
             <p> <em> "Ecrire c'est donner du rêve à ses lecteurs. C'est aussi pour moi le moyen de délivrer des messages
-                forts pour partager et faire partager des valeurs essentielles. L'écriture me permet de laisser des traces, des morceaux de
-                l'’histoire d'une vie, des tableaux colorés. Et comme disait Jean Guéhenno de l'académie française "Un livre est un
-                outil de liberté". Soyons des écrivains libres !"</em></p>
+                    forts pour partager et faire partager des valeurs essentielles. L'écriture me permet de laisser des
+                    traces, des morceaux de
+                    l'’histoire d'une vie, des tableaux colorés. Et comme disait Jean Guéhenno de l'académie française
+                    "Un livre est un
+                    outil de liberté". Soyons des écrivains libres !"</em></p>
 
-                <br>
+            <br>
 
             <p>Comme le livre d'histoire rend immortels les grands personnages, les vraies histoires rendent immortels
                 les
@@ -92,7 +68,7 @@
                 humaine.
                 "Un tout petit péché - tome 2 mon testament" sortira en février 2024.</p>
 
-                <br>
+            <br>
 
             <p>Et comme Sylvain Tesson, écrivain et voyageur bien connu, j'ai parcouru l’Ardenne et me suis arrêtée à
                 Revin.
@@ -106,7 +82,7 @@
                 carnet
                 d’une découverte" est une ode à la nature et à cette contrée sauvage remplie de poésie.</p>
 
-                <br>
+            <br>
 
             <p><em>(1) Médias qui n'appartiennent pas aux organes de presse mainstream (de masse).</em></p>
 
@@ -119,25 +95,7 @@
             <p>Membre de la Société des Gens de Lettres.</p>
         </article>
     </main>
-
-    <footer>
-        <div class="footer_content">
-            <h3>Marie-Simone POUBLON</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/mariesimone.poublon"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer_bottom">
-            <p>copyright &copy;2023 tous droits réservés | Édition Marie Simone</p>
-        </div>
-    </footer>
-
-    
-
+    <?php include '../composants/footer.php' ?>
 </body>
 
 </html>
